@@ -19,7 +19,10 @@ ALLOWED_HOSTS = [
     "localhost"
 ]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://inventory-management-system-production-10fa.up.railway.app',
+    
+]
 
 # Application definition
 
